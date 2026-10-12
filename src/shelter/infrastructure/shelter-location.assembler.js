@@ -1,6 +1,6 @@
 import {ShelterLocation} from "../domain/model/shelter-location.entity.js";
 
-export class ShelterAssembler {
+export class ShelterLocationAssembler {
     static toEntityFromResource(resource){
         return new ShelterLocation({...resource});
     }
